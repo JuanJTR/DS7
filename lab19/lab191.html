@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 19.1</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <div id="drop_file_zone" ondrop="upload_file(event)" ondragover="return false">
+        <div id="drag_upload_file">
+            <p>Arrastre el archivo aquí!</p>
+            <p>o</p>
+            <p><input type="button" value="seleccionar archivo" onclick="file_explorer();"></p>
+            <input type="file" name="file" id="selectfile">
+        </div>
+    </div>
+    <div class="img-content"></div>
+    <script src="js/funciones_ajax.js"></script>
+</body>
+
+</html>
