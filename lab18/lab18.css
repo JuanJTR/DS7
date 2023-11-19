@@ -1,0 +1,21 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    margin: 10px;
+    font-size: 20px;
+}
+
+input{
+    width: 250px; /* Ancho personalizado */
+    height: 30px; /* Alto personalizado */
+    font-size: 18px;
+}
+
+h3{
+    color: rgb(255, 0, 0);
+}
+
+h2{
+    color: rgb(14, 153, 14);
+}
